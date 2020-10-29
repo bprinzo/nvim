@@ -1,7 +1,50 @@
 {
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.semanticHighlighting.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "explorer.compactFolders": false,
+  "cSpell.userWords": [
+    "Borderless",
+    "Prinzo",
+    "botao",
+    "confirmpassword",
+    "middlewares",
+    "ryrios"
+  ],
+  "editor.renderWhitespace": "all",
+  "cSpell.enableFiletypes": ["objective-cpp"],
+  "cSpell.language": "en,pt-BR",
+  "vsicons.presets.tsOfficial": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "prettier.packageManager": "yarn",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/snap/nvim/559/usr/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.bindings": [
@@ -875,144 +918,21 @@
   "gitlens.hovers.currentLine.over": "line",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.pythonPath": "/Users/chris/.miniconda/bin/python",
   "java.semanticHighlighting.enabled": true,
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/chris/.vscode-oss/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
   "workbench.list.automaticKeyboardNavigation": false,
-  "oneDarkPro.editorTheme": "onedarkPro",
-  "python.languageServer": "Microsoft",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "kite.showWelcomeNotificationOnStartup": false,
-  "python.terminal.activateEnvironment": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
   "terminal.external.osxExec": "iTerm.app",
-  "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": false,
-  "leetcode.workspaceFolder": "/Users/chris/Repos/leetcode",
-  "leetcode.defaultLanguage": "javascript",
-  "leetcode.hint.configWebviewMarkdown": false,
-  "leetcode.hint.commentDescription": false,
-  "window.zoomLevel": 3,
+  "workbench.activityBar.visible": true,
+  "window.zoomLevel": 1,
   "window.menuBarVisibility": "toggle",
-  "python.dataScience.alwaysTrustNotebooks": true,
-  "python.condaPath": "$HOME/.miniconda/bin/conda",
-  "python.formatting.provider": "black",
-  "python.insidersChannel": "daily",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.external.linuxExec": "/usr/bin/alacritty",
-  "editor.tokenColorCustomizations": {
-    "[One Dark Pro]": {
-      "textMateRules": [
-        {
-          "scope": [
-            "support.class.component.open.jsx",
-            "support.class.component.close.jsx",
-            "entity.name.function.js"
-          ],
-          "settings": {
-            "foreground": "#61afef"
-          }
-        },
 
-        {
-          "scope": [
-            "variable.other.constant.object.js",
+  "editor.minimap.enabled": true,
+  "editor.cursorSurroundingLines": 5,
+  "workbench.startupEditor": "newUntitledFile",
 
-            "punctuation.section.embedded.begin.jsx",
-            "punctuation.section.embedded.end.jsx"
-          ],
-          "settings": {
-            "foreground": "#abb2bf"
-          }
-        },
-        {
-          "scope": ["punctuation.definition.tag.jsx"],
-          "settings": {
-            "foreground": "#5c6370"
-          }
-        },
-        {
-          "scope": [
-            "variable.other.readwrite.js",
-            "variable.other.property.js",
-            "variable.parameter",
-            "variable.other.object.js"
-          ],
-          "settings": {
-            "foreground": "#56b6c2"
-          }
-        },
-        {
-          "scope": ["entity.other.attribute-name.jsx"],
-          "settings": {
-            "foreground": "#e5c07b"
-          }
-        },
-        {
-          "scope": [
-            "keyword.operator.assignment.js",
-            "keyword.operator.assignment.jsx",
-            "string.unquoted.js",
-            "keyword.operator.typeof.js",
-            "meta.embedded.expression.js",
-            "constant.other.object.key.js",
-            "keyword.operator.logical.js"
-          ],
-          "settings": {
-            "foreground": "#c678dd"
-          }
-        },
-        {
-          "scope": ["variable.other.constant.object.js"],
-          "settings": {
-            "foreground": "#e06c75"
-          }
-        }
-      ]
-    }
-  },
-
-  "workbench.colorCustomizations": {
-    "[Default Dark+]": {
-      "statusBar.background": "#2E2E2E",
-      "statusBar.foreground": "#8C8C8C",
-      "statusBarItem.remoteBackground": "#2E2E2E",
-      "statusBarItem.remoteForeground": "#8C8C8C",
-      "activityBar.background": "#2E2E2E",
-      "tab.inactiveBackground": "#2E2E2E"
-    },
-    "[One Dark Pro]": {
-      "editor.background": "#1e2127",
-      "terminal.foreground": "#abb2bf",
-      "terminal.ansiBlack": "#1e2127",
-      "terminal.ansiBlue": "#61afef",
-      "terminal.ansiCyan": "#56b6c2",
-      "terminal.ansiGreen": "#98C379",
-      "terminal.ansiMagenta": "#c678dd",
-      "terminal.ansiRed": "#e06c75",
-      "terminal.ansiWhite": "#abb2bf",
-      "terminal.ansiYellow": "#d19a66",
-      "terminal.ansiBrightBlack": "#5c6370",
-      "terminal.ansiBrightBlue": "#61afef",
-      "terminal.ansiBrightCyan": "#56b6c2",
-      "terminal.ansiBrightGreen": "#98c379",
-      "terminal.ansiBrightMagenta": "#c678dd",
-      "terminal.ansiBrightRed": "#e06c75",
-      "terminal.ansiBrightWhite": "#ffffff",
-      "terminal.ansiBrightYellow": "#d19a66"
-    }
-  },
-  "gitlens.advanced.telemetry.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" }
 }
